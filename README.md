@@ -13,9 +13,13 @@ C:/Cat-1
 └── data.yaml
 
 path: C:/Cat-1
+
 train: train/images
+
 val: test/images
+
 test: test/images
+
 
 nc: 1
 names: ['cat']
