@@ -35,9 +35,13 @@ Kullanım
 Kod, belirtilen görsel üzerinde yalnızca kedi nesnesini tespit edecek şekilde çalışır. COCO sınıf indeksine göre 15 = cat olacak şekilde filtreleme yapılmıştır.
 
 results = model.track(
+   
     source=r"C:\Users\Ceren\Downloads\kedi.webp",
+   
     classes=[15],
+   
     conf=0.5,
+   
     persist=True
 )
 
@@ -52,7 +56,7 @@ classes=[15] : Sadece kedi sınıfı
 
 Tespit edilen kedi görüntü üzerinde bounding box ile işaretlenir. Sonuç görseli otomatik olarak aşağıdaki adla kaydedilir:
 
-kedi_tespit_edildi.jpg
+ kedi_tespit_edildi.jpg
 
 Amaç
 
