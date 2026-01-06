@@ -8,8 +8,12 @@ Python 3.x, Ultralytics YOLOv8, OpenCV (cv2)
 
 Dataset Yapısı (YOLO Formatı)
 C:/Cat-1
+
+
 ├── train/images
+
 ├── test/images
+
 └── data.yaml
 
 path: C:/Cat-1
